@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-auto-height",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically sets the image height to the image size that matches the provided width",
   "main": "index.js",
   "scripts": {
