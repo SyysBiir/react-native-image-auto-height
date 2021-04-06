@@ -1,0 +1,22 @@
+{
+  "name": "react-native-image-auto-height",
+  "version": "1.0.0",
+  "description": "Automatically sets the image height to the image size that matches the provided width",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyysBiir/react-native-image-auto-height.git"
+  },
+  "keywords": [
+    "react-native-image-auto-height"
+  ],
+  "author": "Maxim Boyanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SyysBiir/react-native-image-auto-height/issues"
+  },
+  "homepage": "https://github.com/SyysBiir/react-native-image-auto-height#readme"
+}
