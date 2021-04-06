@@ -1,5 +1,4 @@
 # react-native-image-auto-height
-> Automatically setting image height to image size
 
 This component provides you with an easy way to automatically set the height of the image to the provided width without using additional props
 
