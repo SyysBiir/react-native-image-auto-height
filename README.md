@@ -14,18 +14,18 @@ npm i react-native-image-auto-height --save
 ```js
 import React, { Component } from 'react';
 import { StyleSheet } from 'react-native';
-import ImageAutoHeight from 'react-native-image-auto-height';
+import Image from 'react-native-image-auto-height';
 
 export default class Demo extends Component {
   render() {
     return (
       <>
-        <ImageAutoHeight
+        <Image
           style={styles.image}
           source={require('./image.png')}
         />
 
-        <ImageAutoHeight
+        <Image
           style={styles.image}
           source={{uri: 'http://placehold.it/350x150'}}
         />
