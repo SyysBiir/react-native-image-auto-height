@@ -6,6 +6,7 @@ This component provides you with an easy way to automatically set the height of 
 
 ```js
 import React, { Component } from 'react';
+import { StyleSheet } from 'react-native';
 import ImageAutoHeight from 'react-native-image-auto-height';
 
 export default class Demo extends Component {
