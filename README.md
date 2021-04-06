@@ -1,4 +1,5 @@
 # react-native-image-auto-height
+[![npm](https://img.shields.io/npm/v/github-buttons)](https://www.npmjs.com/package/react-native-image-auto-height)
 
 This component provides you with an easy way to automatically set the height of the image to the provided width without using additional props
 
