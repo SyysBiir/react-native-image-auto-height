@@ -13,7 +13,7 @@ export default class Demo extends Component {
     return (
       <>
         <ImageAutoHeight
-          width={styles.image}
+          style={styles.image}
           source={require('./image.png')}
         />
 
