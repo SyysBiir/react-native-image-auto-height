@@ -11,7 +11,10 @@
     "url": "git+https://github.com/SyysBiir/react-native-image-auto-height.git"
   },
   "keywords": [
-    "react-native-image-auto-height"
+    "react-native",
+    "react-native-image-auto-height",
+    "image",
+    "auto-height"
   ],
   "author": "Maxim Boyanov",
   "license": "ISC",
