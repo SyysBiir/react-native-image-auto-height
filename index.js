@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Image } from 'react-native';
 
 const ImageAutoHeight = (props) => {
-    var propsImageWidth, propsImageHeight;
+    var propsImageWidth, propsImageHeight, imageUri;
     if(props.style.length) {
         propsImageWidth = props.style[props.style.length-1].width;
         propsImageHeight = props.style[props.style.length-1].height;
