@@ -14,13 +14,10 @@ const ImageAutoHeight = (props) => {
     const [ ImageHeight, setImageHeight ] = useState(propsImageHeight);
 
     if(propsImageHeight == 'auto') {
-        if(props.source.uri) {
-            Image.getSize(props.source.uri, (imgWidth, imgHeight) => {
-                setImageHeight((imgHeight * (propsImageWidth)) / imgWidth)
-            });
-        } else {
-            setImageHeight(Image.resolveAssetSource(props.source).height)
-        }
+        imageUri = props.source.uri ? props.source.uri : Image.resolveAssetSource(props.source).uri;
+        Image.getSize(imageUri, (imgWidth, imgHeight) => {
+            setImageHeight((imgHeight * (propsImageWidth)) / imgWidth)
+        });
     }
 
     return (<Image {...props} style={[props.style, {
