@@ -3,6 +3,12 @@
 
 This component provides you with an easy way to automatically set the height of the image to the provided width without using additional props
 
+## Install
+To install the module, run the following in the command line:
+```bash
+npm i react-native-image-auto-height --save
+```
+
 ## Usage
 
 ```js
